@@ -527,31 +527,40 @@ class Profile extends Component {
                     <Grid item className="mt-20">
                       <div className="p-10">
                         <Typography variant="subtitle2" className="d-block">
-                          FAQ
+                          FAQ's
                         </Typography>
-
+                        <Typography
+                          variant="body2"
+                          className="d-block font-color-green"
+                        >
+                          What happens when I update mobile number ?
+                        </Typography>
+                        <Typography variant="body2" className="d-block">
+                          Your mobile number changes, likewise.You 'll receive
+                          all your account related communication on your updated
+                          mobile number.
+                        </Typography>
                         <Typography
                           variant="body2"
                           className="d-block font-color-green mt-10"
                         >
                           When will my EGadgets account be updated with the new
-                          email address(or mobile number) ?
+                          address?
                         </Typography>
                         <Typography variant="body2" className="d-block">
-                          It happens as soon as you confirm the verification
-                          code sent to your email(or mobile) and save the
-                          changes.
+                          New address will be updated in the address section of
+                          respective user and it will be selected as default
+                          address for shipping.
                         </Typography>
                         <Typography
                           variant="body2"
                           className="d-block font-color-green mt-10"
                         >
-                          Does my Seller account get affected when I update my
-                          email address ?
+                          Can i update the existing address?
                         </Typography>
                         <Typography variant="body2" className="d-block">
-                          EGadgets has a 'single sign-on' policy.Any changes
-                          will reflect in your Seller account also
+                          EGadgets provides the feature to edit and add new
+                          address for seamless delivery of the product.
                         </Typography>
                       </div>
                     </Grid>
