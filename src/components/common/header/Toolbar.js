@@ -153,7 +153,7 @@ class ToolbarComponent extends React.Component {
               </IconButton>
               <Typography className={classes.title} variant="h6" noWrap>
                 <Link to="/" className="logo">
-                  EGadets
+                  EGadgets
                 </Link>
               </Typography>
               <div className={classes.search}>
